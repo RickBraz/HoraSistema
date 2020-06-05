@@ -6,8 +6,9 @@ namespace HoraSistema
     {
         static void Main(string[] args)
         {
-            DateTime agora = DateTime.Now;
-            Console.WriteLine(agora);
+           Console.WriteLine("Mostrar a data e hora do sistema");
+            DateTime HoraSistema = DateTime.Now;
+            Console.WriteLine($"Hora do sistema: {HoraSistema}");
         }
     }
 }
